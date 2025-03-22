@@ -1,0 +1,23 @@
+{
+    "characters": {
+      "花子": {
+        "name": "花子",
+        "language": "ja",
+        "speed_rate": 1.15,
+        "pitch_steps": 4,
+        "volume_gain_db": 1,
+        "bass_boost": 0,
+        "description": "明るく元気な女の子"
+      },
+      "太郎": {
+        "name": "太郎",
+        "language": "ja",
+        "speed_rate": 0.9,
+        "pitch_steps": -7,
+        "volume_gain_db": 0,
+        "bass_boost": 6,
+        "description": "落ち着いた性格の男性"
+      }
+    }
+  }
+  
