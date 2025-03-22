@@ -86,12 +86,21 @@
 
 - Python 3.9+
 - Streamlit 1.32.0
-- gTTS 2.5.1
+- gTTS (Google Text-to-Speech) 2.5.1
+- librosa 0.10.1
+- soundfile 0.12.1
 - その他の依存関係は`requirements.txt`を参照
+
+## 技術スタック
+
+- [gTTS (Google Text-to-Speech)](https://github.com/pndurette/gTTS): テキストから音声への変換
+- [librosa](https://librosa.org/): 音声加工（ピッチ、速度、音量の調整）
+- [soundfile](https://github.com/bastibe/python-soundfile): 音声ファイルの処理
+- [Streamlit](https://streamlit.io/): Webインターフェースの構築
 
 ## 注意事項
 
-- インターネット接続が必要です（Google Text-to-Speech APIを使用）
+- インターネット接続が必要です（gTTSを使用するため）
 - 音声生成には少し時間がかかる場合があります
 - 生成された音声は一時的なものでサーバーには保存されません
 
@@ -122,5 +131,6 @@
 
 ## 謝辞
 
-- [Google Text-to-Speech](https://cloud.google.com/text-to-speech) - 基本的な音声合成に使用
+- [gTTS](https://github.com/pndurette/gTTS) - テキストから音声への変換に使用
+- [librosa](https://librosa.org/) - 音声加工に使用
 - [Streamlit](https://streamlit.io/) - Webインターフェースの構築に使用 
